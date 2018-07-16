@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="StepView">
+        <attr name="mStepColor" format="color" />
+        <attr name="inCircleColor" format="color" />
+        <attr name="outCircleStartColor" format="color" />
+        <attr name="outCircleEndColor" format="color" />
+        <attr name="mStepSize" format="dimension" />
+        <attr name="mTimeSize" format="dimension" />
+        <attr name="mTimeColor" format="color" />
+    </declare-styleable>
+
+    <style name="media_choose_btn">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/media_choose_op_btn_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">10.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+</resources>

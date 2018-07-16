@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="#1F1B1E"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/mTitle_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="赞助"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/mTitle_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="19dp"
+        android:paddingRight="19dp"
+        android:src="@mipmap/title_right_img" />
+</RelativeLayout>

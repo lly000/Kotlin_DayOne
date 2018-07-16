@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/title_relative"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#1F1B1E"
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/mTitle_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@mipmap/return_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="俯卧撑"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_relative"
+        android:background="#ff333333">
+
+        <com.example.kotlin_dayone.view.StepView
+            android:id="@+id/mStepView"
+            android:layout_width="232dp"
+            android:layout_height="232dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            app:inCircleColor="@color/inCircle"
+            app:mStepColor="@color/white"
+            app:mStepSize="80sp"
+            app:mTimeColor="@color/white"
+            app:mTimeSize="20sp"
+            app:outCircleEndColor="@color/outCircleEndColor"
+            app:outCircleStartColor="@color/outCircleStartColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mStepView"
+            android:layout_marginTop="72dp"
+            android:gravity="center"
+            android:text="鼻尖轻触计数器可完成计数"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/mEnd_tv"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp"
+            android:background="@drawable/end_tv_shape"
+            android:gravity="center"
+            android:text="结束"
+            android:textColor="#813700"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</RelativeLayout>

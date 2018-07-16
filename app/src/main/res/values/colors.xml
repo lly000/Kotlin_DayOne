@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="inCircle">#ADADAD</color>
+    <color name="outCircleStartColor">#F9B700</color>
+    <color name="outCircleEndColor">#F69005</color>
+    <color name="titleColor">#1F1B1E</color>
+    <color name="applicationColor">#00ffffff</color>
+
+    <color name="media_choose_op_btn_disabled">#ffffffff</color>
+    <color name="media_choose_op_btn_enabled">#ffff819f</color>
+</resources>
