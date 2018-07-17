@@ -80,7 +80,7 @@ public class PictureAdapter extends RecyclerView.Adapter<PictureAdapter.ViewHold
                 onItemClick(itemClickListener, position);
             }
         });
-
+        holder.media_selected_indicator.setChecked(false);
         for (int i = 0; i < mSelectList.size(); i++) {
             if (mSelectList.get(i).toString().equals(imgs.get(position).toString())) {
                 holder.media_selected_indicator.setChecked(true);
